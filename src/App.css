@@ -1,0 +1,29 @@
+.main-card {
+  display: flex;
+  border: 1px solid gray;
+  width: 250px;
+  height: 190px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 5px;
+  justify-content: center;
+}
+
+.image {
+  width: 100px;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 5px;
+  margin: 5px;
+}
+.active {
+  background-color: darkcyan;
+}
